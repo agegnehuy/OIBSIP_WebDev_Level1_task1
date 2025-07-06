@@ -1,0 +1,174 @@
+
+ body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #0f172a;
+  line-height: 1.6;
+  background: #fff;
+}
+
+.hero {
+  background: #fdf6e3 url('images/hero-bg.png') no-repeat center;
+  background-size: cover;
+  padding: 2rem;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.logo img{
+    height: 250px;
+    width: auto;
+  color: #d32f2f;
+  font-size: 1.2rem;
+}
+
+.language {
+  font-size: 0.9rem;
+  margin-right: 100px;
+  color: black;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #334155;
+}
+
+.btn-primary {
+  background: #047857;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.guarantee {
+  display: block;
+  font-size: 0.8rem;
+  color: #64748b;
+  margin-top: 0.5rem;
+}
+
+.features {
+  padding: 3rem 1rem;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+  gap: 2rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature img {
+  width: 200px;
+  max-width: 100%;
+}
+
+.feature h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.advantages {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  
+}
+
+.advantage {
+  max-width: 250px;
+  text-align: center;
+  padding: 0.25rem;
+  font-family: sans-serif;
+  
+}
+
+.advantage img {
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+
+
+.servers {
+  background: #fef2f2;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.servers h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.servers-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.map {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.stat {
+line-height: 1.1;
+}
+
+.stats strong {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 0.2rem;
+  color: #0f172a;
+}
+.stat span{
+    font-size: 1rem;
+    colour:#334155;
+}
+
+.link {
+  display: block;              /* Makes it take full width */
+  width: fit-content;          /* Shrinks to just the text width */
+  margin: 2rem auto 0;         /* Centers it horizontally */
+  text-align: center;          /* Makes text centered inside */
+  color: #059669;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
